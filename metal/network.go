@@ -2,16 +2,16 @@ package neuron
 
 // Spiking neural network
 type Network struct {
-	layers []*Layer
-	time   int // Global time step
+	Layers []*Layer `json:"layers"`
+	Time   int      `json:"time"`
 }
 
 func NewNetwork(layers []*Layer) *Network {
-	return &Network{layers: layers, time: 0}
+	return &Network{Layers: layers, Time: 0}
 }
 
 func (n *Network) Forward(input []float64, currentTime int) []int {
-	for _, layer := range n.layers {
+	for _, layer := range n.Layers {
 		input = floatSlice(layer.Forward(input, currentTime))
 	}
 	return intSlice(input)

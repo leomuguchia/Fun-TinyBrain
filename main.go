@@ -4,26 +4,24 @@ import (
 	"encoding/csv"
 	"fmt"
 	"math/rand"
-	neuron "network/metal"
 	"os"
 	"strconv"
 	"time"
+
+	neuron "tinybrain/metal"
 )
 
-func main() {
-	rand.Seed(time.Now().UnixNano())
+// createNewNetwork builds a fresh network (your existing network setup code)
+func createNewNetwork() *neuron.Network {
+	const numLayers = 8
+	const neuronsPerLayer = 8
 
-	const numLayers = 88
-	const neuronsPerLayer = 88
-	const timeSteps = 300
-
-	// Build an 8×8 layered network with randomized weights, biases, thresholds, decay
 	layers := []*neuron.Layer{}
 	for i := 0; i < numLayers; i++ {
 		layer := []neuron.SpikingNeuron{}
 		inputSize := neuronsPerLayer
 		if i == 0 {
-			inputSize = 4 // input layer has fixed size inputs
+			inputSize = 8 // input layer has 8 inputs
 		}
 		for j := 0; j < neuronsPerLayer; j++ {
 			connections := make([]neuron.Connection, inputSize)
@@ -39,15 +37,32 @@ func main() {
 				Decay:            0.8 + 0.2*rand.Float64(),
 				RefractoryPeriod: rand.Intn(4) + 1,
 			})
-
 		}
-
 		layers = append(layers, neuron.NewLayer(layer))
 	}
-	net := neuron.NewNetwork(layers)
+	return neuron.NewNetwork(layers)
+}
 
-	// CSV output setup
-	file, err := os.Create("spike_records.csv")
+func main() {
+	rand.Seed(time.Now().UnixNano())
+
+	const timeSteps = 100
+	const patternSwitchInterval = 50 // every 10 steps, switch pattern
+	const numLayers = 8
+	const neuronsPerLayer = 8
+
+	// Try to load existing network state
+	net := &neuron.Network{}
+	err := net.Load("network_state.json")
+	if err != nil {
+		fmt.Println("No saved network, creating new one")
+		net = createNewNetwork()
+	} else {
+		fmt.Println("Loaded network from network_state.json")
+	}
+
+	// Setup CSV file for spike recording
+	file, err := os.Create("tests/spike_records_patterns.csv")
 	if err != nil {
 		panic(err)
 	}
@@ -55,8 +70,8 @@ func main() {
 	writer := csv.NewWriter(file)
 	defer writer.Flush()
 
-	// Write CSV headers
-	headers := []string{"t"}
+	// CSV Headers
+	headers := []string{"t", "pattern"}
 	for l := 0; l < numLayers; l++ {
 		for n := 0; n < neuronsPerLayer; n++ {
 			headers = append(headers, fmt.Sprintf("L%d_N%d", l, n))
@@ -64,25 +79,45 @@ func main() {
 	}
 	writer.Write(headers)
 
-	// Run for multiple steps with time-varying input
+	// Define input patterns
+	patternA := []float64{1, 1, 1, 1, 0, 0, 0, 0} // Left side lit
+	patternB := []float64{1, 0, 1, 0, 1, 0, 1, 0} // Alternating
+
 	for t := 0; t < timeSteps; t++ {
-		input := []float64{
-			1.0 * (0.5 + 0.5*float64(t)/float64(timeSteps)), // ramping from 0.5 to 1.0
-			0.8 * (1.0 - 0.5*float64(t)/float64(timeSteps)), // ramping down from 0.8 to 0.4
-			0.5,                         // constant
-			-0.4 * (float64(t%2)*2 - 1), // alternating sign every timestep
+		var input []float64
+		patternLabel := "A"
+		if (t/patternSwitchInterval)%2 == 0 {
+			input = patternA
+		} else {
+			input = patternB
+			patternLabel = "B"
 		}
 
 		output := net.Forward(input, t)
 
-		row := []string{strconv.Itoa(t)}
-		for _, layer := range net.Layers() {
-			for _, neuron := range layer.Neurons() {
+		row := []string{strconv.Itoa(t), patternLabel}
+		for _, layer := range net.Layers {
+			for _, neuron := range layer.Neurons {
 				row = append(row, fmt.Sprintf("%.2f", neuron.MembranePotential))
 			}
 		}
 		writer.Write(row)
 
-		fmt.Printf("Step %d: Input: %v Final Output: %v\n", t, input, output)
+		fmt.Printf("Step %d [Pattern %s]: Output: %v\n", t, patternLabel, output)
+		// Example: track weight of first neuron in first layer from first input
+		if t%10 == 0 {
+			trackedWeight := net.Layers[0].Neurons[0].Connections[0].Weight
+			fmt.Printf("  ↳ Tracked Weight L0.N0.C0: %.4f\n", trackedWeight)
+		}
+
 	}
+
+	// Save network state after training
+	if err := net.Save("network_state.json"); err != nil {
+		fmt.Println("Error saving network:", err)
+	} else {
+		fmt.Println("Network state saved to network_state.json")
+	}
+
+	fmt.Println("Done. Check tests/spike_records_patterns.csv for potential learning traces.")
 }

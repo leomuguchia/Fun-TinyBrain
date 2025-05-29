@@ -1,17 +1,17 @@
 package neuron
 
 type Layer struct {
-	neurons []SpikingNeuron
+	Neurons []SpikingNeuron `json:"neurons"`
 }
 
 func NewLayer(neurons []SpikingNeuron) *Layer {
-	return &Layer{neurons: neurons}
+	return &Layer{Neurons: neurons}
 }
 
 func (l *Layer) Forward(inputs []float64, currentTime int) []int {
-	spikes := make([]int, len(l.neurons))
-	for i := range l.neurons {
-		spikes[i] = l.neurons[i].Forward(inputs, currentTime)
+	spikes := make([]int, len(l.Neurons))
+	for i := range l.Neurons {
+		spikes[i] = l.Neurons[i].Forward(inputs, currentTime)
 	}
 	return spikes
 }
