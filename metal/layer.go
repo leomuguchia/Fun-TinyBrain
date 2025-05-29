@@ -1,4 +1,3 @@
-// File: metal/layer.go
 package neuron
 
 type Layer struct {
@@ -9,10 +8,10 @@ func NewLayer(neurons []SpikingNeuron) *Layer {
 	return &Layer{neurons: neurons}
 }
 
-func (l *Layer) Forward(inputs []float64) []int {
+func (l *Layer) Forward(inputs []float64, currentTime int) []int {
 	spikes := make([]int, len(l.neurons))
 	for i := range l.neurons {
-		spikes[i] = l.neurons[i].Forward(inputs)
+		spikes[i] = l.neurons[i].Forward(inputs, currentTime)
 	}
 	return spikes
 }

@@ -1,18 +1,18 @@
-// File: metal/network.go
 package neuron
 
 // Spiking neural network
 type Network struct {
 	layers []*Layer
+	time   int // Global time step
 }
 
 func NewNetwork(layers []*Layer) *Network {
-	return &Network{layers: layers}
+	return &Network{layers: layers, time: 0}
 }
 
-func (n *Network) Forward(input []float64) []int {
+func (n *Network) Forward(input []float64, currentTime int) []int {
 	for _, layer := range n.layers {
-		input = floatSlice(layer.Forward(input))
+		input = floatSlice(layer.Forward(input, currentTime))
 	}
 	return intSlice(input)
 }

@@ -26,17 +26,22 @@ func main() {
 			inputSize = 4 // input layer has fixed size inputs
 		}
 		for j := 0; j < neuronsPerLayer; j++ {
-			weights := make([]float64, inputSize)
-			for k := range weights {
-				weights[k] = 0.3 + 0.4*rand.Float64() // weights between 0.3 and 0.7
+			connections := make([]neuron.Connection, inputSize)
+			for k := range connections {
+				connections[k] = neuron.Connection{
+					Weight: rand.Float64()*2 - 1,
+				}
 			}
 			layer = append(layer, neuron.SpikingNeuron{
-				Weights:   weights,
-				Bias:      -0.1 + 0.3*rand.Float64(), // bias between -0.1 and 0.2
-				Threshold: 1.2 + 0.5*rand.Float64(),  // threshold between 1.2 and 1.7
-				Decay:     0.90 + 0.1*rand.Float64(), // decay between 0.9 and 1.0
+				Connections:      connections,
+				Bias:             rand.NormFloat64() * 0.5,
+				Threshold:        1.0 + rand.Float64(),
+				Decay:            0.8 + 0.2*rand.Float64(),
+				RefractoryPeriod: rand.Intn(4) + 1,
 			})
+
 		}
+
 		layers = append(layers, neuron.NewLayer(layer))
 	}
 	net := neuron.NewNetwork(layers)
@@ -68,7 +73,7 @@ func main() {
 			-0.4 * (float64(t%2)*2 - 1), // alternating sign every timestep
 		}
 
-		output := net.Forward(input)
+		output := net.Forward(input, t)
 
 		row := []string{strconv.Itoa(t)}
 		for _, layer := range net.Layers() {
