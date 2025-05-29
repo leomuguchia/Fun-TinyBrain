@@ -6,7 +6,7 @@
 
 ## What Makes It Different?
 
-Unlike traditional neural networks (where neurons output a range of values and require activation functions), each neuron in Fun Tiny Brain:
+Unlike current artifical neural networks (where neurons output a range of values and require activation functions), each neuron in Fun Tiny Brain:
 
 - **Accumulates input signals over time**
 - **Fires (spikes) only when a threshold is reached**
