@@ -22,3 +22,11 @@ The output is always binary:
 
 This simple model is closer to how real neurons work — switching on/off, not sliding smoothly.  
 It eliminates the need for activation functions and keeps things straightforward.
+
+# Test runs
+keep running and tweaking the values
+    const numLayers = 88
+	const neuronsPerLayer = 88
+	const timeSteps = 300
+** i have set static values for now. Feel free to contribute, its just a fun trial **
+** Have fun, always **

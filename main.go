@@ -13,9 +13,9 @@ import (
 func main() {
 	rand.Seed(time.Now().UnixNano())
 
-	const numLayers = 8
-	const neuronsPerLayer = 8
-	const timeSteps = 30
+	const numLayers = 88
+	const neuronsPerLayer = 88
+	const timeSteps = 300
 
 	// Build an 8×8 layered network with randomized weights, biases, thresholds, decay
 	layers := []*neuron.Layer{}
