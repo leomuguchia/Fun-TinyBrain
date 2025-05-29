@@ -1,3 +1,4 @@
+// File: metal/layer.go
 package neuron
 
 type Layer struct {

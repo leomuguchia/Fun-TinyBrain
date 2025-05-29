@@ -1,3 +1,4 @@
+// File: metal/network.go
 package neuron
 
 // Spiking neural network
