@@ -65,7 +65,7 @@ func main() {
 			1.0 * (0.5 + 0.5*float64(t)/float64(timeSteps)), // ramping from 0.5 to 1.0
 			0.8 * (1.0 - 0.5*float64(t)/float64(timeSteps)), // ramping down from 0.8 to 0.4
 			0.5,                         // constant
-			-0.4 * (float64(t)%2*2 - 1), // alternating sign every timestep
+			-0.4 * (float64(t%2)*2 - 1), // alternating sign every timestep
 		}
 
 		output := net.Forward(input)
