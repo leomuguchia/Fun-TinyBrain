@@ -1,79 +1,45 @@
-// File: tests/plot.go
 package main
 
 import (
-	"encoding/csv"
-	"fmt"
-	"log"
+	"encoding/json"
+	"io/ioutil"
 	"os"
-	"strconv"
 
 	"gonum.org/v1/plot"
 	"gonum.org/v1/plot/plotter"
 	"gonum.org/v1/plot/vg"
 )
 
+type Connection struct {
+	Weight float64 `json:"weight"`
+}
+type Neuron struct {
+	Connections []Connection `json:"connections"`
+}
+type Layer struct {
+	Neurons []Neuron `json:"neurons"`
+}
+type Network struct {
+	Layers []Layer `json:"layers"`
+}
+
 func main() {
-	file, err := os.Open("spike_records.csv")
-	if err != nil {
-		log.Fatalf("failed to open CSV: %v", err)
-	}
-	defer file.Close()
+	f, _ := os.Open("network_state.json")
+	defer f.Close()
+	data, _ := ioutil.ReadAll(f)
+	var net Network
+	json.Unmarshal(data, &net)
 
-	reader := csv.NewReader(file)
-	rows, err := reader.ReadAll()
-	if err != nil {
-		log.Fatalf("failed to read CSV: %v", err)
-	}
-
-	if len(rows) < 2 {
-		log.Fatalf("not enough data")
+	// Example: plot weights of first neuron in first layer
+	pts := make(plotter.XYs, len(net.Layers[0].Neurons[0].Connections))
+	for i, c := range net.Layers[0].Neurons[0].Connections {
+		pts[i].X = float64(i)
+		pts[i].Y = c.Weight
 	}
 
-	type Spike struct {
-		Timestep int
-		NeuronID int
-	}
-
-	var spikes []Spike
-
-	// Parse membrane potentials and collect spike events
-	for i := 1; i < len(rows); i++ {
-		timestep, _ := strconv.Atoi(rows[i][0])
-		for j := 1; j < len(rows[i]); j++ {
-			val, _ := strconv.ParseFloat(rows[i][j], 64)
-			if val == 0 {
-				spikes = append(spikes, Spike{
-					Timestep: timestep,
-					NeuronID: j - 1,
-				})
-			}
-		}
-	}
-
-	// Raster plot
 	p := plot.New()
-	p.Title.Text = "Raster Plot of Spikes"
-	p.X.Label.Text = "Time Step"
-	p.Y.Label.Text = "Neuron ID"
-
-	pts := make(plotter.XYs, len(spikes))
-	for i, s := range spikes {
-		pts[i].X = float64(s.Timestep)
-		pts[i].Y = float64(s.NeuronID)
-	}
-
-	scatter, err := plotter.NewScatter(pts)
-	if err != nil {
-		log.Fatalf("failed to create scatter: %v", err)
-	}
-	scatter.GlyphStyle.Radius = vg.Points(1.5)
-
-	p.Add(scatter)
-
-	if err := p.Save(10*vg.Inch, 6*vg.Inch, "raster_plot.png"); err != nil {
-		log.Fatalf("failed to save plot: %v", err)
-	}
-
-	fmt.Println("✅ Raster plot saved as raster_plot.png")
+	p.Title.Text = "Weights of first neuron"
+	line, _ := plotter.NewLine(pts)
+	p.Add(line)
+	p.Save(4*vg.Inch, 4*vg.Inch, "weights.png")
 }

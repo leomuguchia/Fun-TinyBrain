@@ -10,9 +10,9 @@ func NewNetwork(layers []*Layer) *Network {
 	return &Network{Layers: layers, Time: 0}
 }
 
-func (n *Network) Forward(input []float64, currentTime int) []int {
+func (n *Network) Forward(input []float64, currentTime int, learningRate float64) []int {
 	for _, layer := range n.Layers {
-		input = floatSlice(layer.Forward(input, currentTime))
+		input = floatSlice(layer.Forward(input, currentTime, learningRate))
 	}
 	return intSlice(input)
 }

@@ -23,19 +23,23 @@ func createNewNetwork() *neuron.Network {
 		if i == 0 {
 			inputSize = 8 // input layer has 8 inputs
 		}
+		// In createNewNetwork()
 		for j := 0; j < neuronsPerLayer; j++ {
 			connections := make([]neuron.Connection, inputSize)
 			for k := range connections {
 				connections[k] = neuron.Connection{
-					Weight: rand.Float64()*2 - 1,
+					Weight: 0.1 + rand.Float64()*0.4, // Random weights 0.1-0.5
 				}
 			}
 			layer = append(layer, neuron.SpikingNeuron{
-				Connections:      connections,
-				Bias:             rand.NormFloat64() * 0.5,
-				Threshold:        1.0 + rand.Float64(),
-				Decay:            0.8 + 0.2*rand.Float64(),
-				RefractoryPeriod: rand.Intn(4) + 1,
+				Connections:       connections,
+				Bias:              -0.3 + rand.Float64()*0.6, // Wider bias range
+				Threshold:         1.0 + rand.Float64()*0.5,  // Slightly higher thresholds
+				Decay:             0.7 + rand.Float64()*0.2,  // Faster decay
+				RefractoryPeriod:  2 + rand.Intn(3),          // Longer refractory
+				MinWeight:         -1.5,                      // Expanded weight range
+				MaxWeight:         1.5,
+				AdaptiveThreshold: 0, // Initialize to 0
 			})
 		}
 		layers = append(layers, neuron.NewLayer(layer))
@@ -79,9 +83,9 @@ func main() {
 	}
 	writer.Write(headers)
 
-	// Define input patterns
-	patternA := []float64{1, 1, 1, 1, 0, 0, 0, 0} // Left side lit
-	patternB := []float64{1, 0, 1, 0, 1, 0, 1, 0} // Alternating
+	// Stronger, more distinct patterns
+	patternA := []float64{1.0, 1.0, 1.0, 1.0, 0.1, 0.1, 0.1, 0.1} // Left side active
+	patternB := []float64{0.1, 1.0, 0.1, 1.0, 0.1, 1.0, 0.1, 1.0} // Alternating strong/weak
 
 	for t := 0; t < timeSteps; t++ {
 		var input []float64
@@ -93,7 +97,8 @@ func main() {
 			patternLabel = "B"
 		}
 
-		output := net.Forward(input, t)
+		learningRate := 0.05
+		output := net.Forward(input, t, learningRate)
 
 		row := []string{strconv.Itoa(t), patternLabel}
 		for _, layer := range net.Layers {
@@ -109,7 +114,6 @@ func main() {
 			trackedWeight := net.Layers[0].Neurons[0].Connections[0].Weight
 			fmt.Printf("  ↳ Tracked Weight L0.N0.C0: %.4f\n", trackedWeight)
 		}
-
 	}
 
 	// Save network state after training
@@ -120,4 +124,15 @@ func main() {
 	}
 
 	fmt.Println("Done. Check tests/spike_records_patterns.csv for potential learning traces.")
+}
+
+func clipWeights(n *neuron.SpikingNeuron, min, max float64) {
+	for i := range n.Connections {
+		if n.Connections[i].Weight < min {
+			n.Connections[i].Weight = min
+		}
+		if n.Connections[i].Weight > max {
+			n.Connections[i].Weight = max
+		}
+	}
 }

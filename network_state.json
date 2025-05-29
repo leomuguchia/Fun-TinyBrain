@@ -4,2059 +4,459 @@
       "neurons": [
         {
           "membranePotential": 0,
-          "threshold": 1.412286434872594,
-          "decay": 0.9094740083126063,
-          "bias": 0.30059964678477274,
+          "threshold": 1.2440649270954403,
+          "adaptiveThreshold": 5.052704873969664,
+          "decay": 0.7508454650869398,
+          "bias": 0,
           "connections": [
             {
-              "weight": -1.0486361212681967,
+              "weight": 1.4999160466391024,
               "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "lastPostSpike": 99
             },
             {
-              "weight": -1.0520778139044027,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.0139261836505142,
+              "weight": 1.4999230854509138,
               "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "lastPostSpike": 99
             },
             {
-              "weight": -2.086067137777364,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.08475490043461387,
+              "weight": 1.499905975172732,
               "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.7286349336797118,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8389778192709106,
+              "weight": 1.4999132704216165,
               "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.991412467071632,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.6956553788802213,
-          "decay": 0.8980151228507085,
-          "bias": -0.24242062177079354,
-          "connections": [
-            {
-              "weight": -0.7367270403205921,
+              "weight": 1.49992818874412,
               "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "lastPostSpike": 99
             },
             {
-              "weight": -1.9445564505834332,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.402254906849868,
+              "weight": 1.4999227119959886,
               "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "lastPostSpike": 99
             },
             {
-              "weight": -1.1197751283366253,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8103946739613344,
+              "weight": 1.4999167753356826,
               "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.6966604579117703,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.11766781949662386,
+              "weight": 1.4999082328113706,
               "lastPreSpike": 99,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.39759034564676,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.4655504035252531,
-          "decay": 0.8305729467688082,
-          "bias": 0.07435529695307368,
-          "connections": [
-            {
-              "weight": -0.21751358878376284,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.9267356744059068,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.9790064947243654,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.1568322865852287,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.5750318585388181,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.5379066776150905,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.21415561878369616,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8364575060344646,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "lastPostSpike": 99
             }
           ],
           "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "refractoryTimer": 3,
+          "lastSpikeTime": 99,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": true,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.6229216938387707,
-          "decay": 0.9946355255159425,
-          "bias": 0.5596991254332936,
+          "threshold": 1.466195905124109,
+          "adaptiveThreshold": 4.756173650217859,
+          "decay": 0.7761481688721115,
+          "bias": 0,
           "connections": [
             {
-              "weight": -1.9407945839939171,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "weight": 1.4999948770355465,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.2935095546008892,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
+              "weight": 1.4999959176289963,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.9925998985732897,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "weight": 1.4999949449971517,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -2.075281207298089,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
+              "weight": 1.4999953990488306,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.5897127088137666,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "weight": 1.4999947697732159,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.8182583369726107,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4999947927674115,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.6801429959263185,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "weight": 1.4999962046119153,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.5552709433693716,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.499995809109853,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
           "refractoryPeriod": 2,
           "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.4781441932772938,
-          "decay": 0.8308613794627594,
-          "bias": -0.5354413361284678,
+          "threshold": 1.1951768964030431,
+          "adaptiveThreshold": 5.202640338072178,
+          "decay": 0.8402621464143973,
+          "bias": 0,
           "connections": [
             {
-              "weight": -1.898175938449776,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "weight": 1.4994753341488065,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -2.109067506328436,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
+              "weight": 1.4994757312705798,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.8863059990825513,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "weight": 1.4995324425481615,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.3311573566160355,
-              "lastPreSpike": 49,
-              "lastPostSpike": 0
+              "weight": 1.4995619401805838,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.1949108843217724,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "weight": 1.4995505690952537,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.4819440145264857,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4994914913236632,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.5576852939381254,
-              "lastPreSpike": 99,
-              "lastPostSpike": 0
+              "weight": 1.4994498798185916,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.836073112093179,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.1893471121363075,
-          "decay": 0.9905812673451623,
-          "bias": 0.3982369299383315,
-          "connections": [
-            {
-              "weight": 20.506813982055625,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 10.934408445830485,
-              "lastPreSpike": 48,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 20.824175675315985,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 10.874972584043462,
-              "lastPreSpike": 48,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 10.349675526878395,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.433437052420512,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 10.310222767773327,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.7625546300101085,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 98
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.0870148532848198,
-          "decay": 0.8011139538478882,
-          "bias": 0.07695257372864729,
-          "connections": [
-            {
-              "weight": 14.243516456623874,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 7.0287979604939705,
-              "lastPreSpike": 47,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 14.034185065248435,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 7.872105776172756,
-              "lastPreSpike": 47,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 7.399950785935612,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.228898496698263,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 7.199094739508359,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 0.25455216694001426,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 1,
-          "lastSpikeTime": 98
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.1581461722965016,
-          "decay": 0.9833725995854938,
-          "bias": -0.1330157541151754,
-          "connections": [
-            {
-              "weight": 10.730404267774121,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 6.029190693519749,
-              "lastPreSpike": 48,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 10.672797345633414,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 5.463395839979626,
-              "lastPreSpike": 48,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 5.0236684033704275,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.294180817205436,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 4.891277440213098,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.0667854702021396,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        }
-      ]
-    },
-    {
-      "neurons": [
-        {
-          "membranePotential": 1.218142502279794,
-          "threshold": 1.7897883332331561,
-          "decay": 0.9088689789532552,
-          "bias": 1.218142502279794,
-          "connections": [
-            {
-              "weight": 0.3303891741380287,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 1.3752309270753764,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.3350765769745682,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 1.167688855022989,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.5358796320762689,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 6.842206301932555,
-              "lastPreSpike": 94,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.5063032045727058,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 2.8885444415646493,
-              "lastPreSpike": 88,
-              "lastPostSpike": 94
+              "weight": 1.49944658819978,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
           "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 94
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.7987251450347308,
-          "decay": 0.9597864156243561,
-          "bias": -0.44877169209119083,
+          "threshold": 1.228598008692914,
+          "adaptiveThreshold": 5.2213376926105735,
+          "decay": 0.8784066174182547,
+          "bias": 0,
           "connections": [
             {
-              "weight": 0.7153264900970093,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.499996097165923,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.11246876893436997,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4999966059253882,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.13234934133477472,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4999965993128574,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.47734531231953303,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4999969029778286,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.17899728800312853,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4999964370730248,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.15719600813652243,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.4999963262879175,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.3770407950872905,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.4999964469968952,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.0663286926604745,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0.5014053442352957,
-          "threshold": 1.9364285680784163,
-          "decay": 0.9658192466464873,
-          "bias": 0.5014053442352957,
-          "connections": [
-            {
-              "weight": 1.07702838612816,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.18662684138427227,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.0014256167758203708,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.6497628447321491,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 0.811230859329332,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 4.01621941855365,
-              "lastPreSpike": 94,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 2.7071879115298882,
-              "lastPreSpike": 99,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 3.103687774608521,
-              "lastPreSpike": 88,
-              "lastPostSpike": 94
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 94
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.6426247569763377,
-          "decay": 0.9916971860638829,
-          "bias": -0.5580413428223919,
-          "connections": [
-            {
-              "weight": -0.4366277877477883,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8725332373273393,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.9300596274902524,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.9094851933541148,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.3488204032489419,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.09126051790231066,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.9253410534823829,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.06167256549430217,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0.5422554535349001,
-          "threshold": 1.3225747562619308,
-          "decay": 0.983124461489755,
-          "bias": 0.5422554535349001,
-          "connections": [
-            {
-              "weight": -0.32847250404397305,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.5627306243049315,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.31574952729829237,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.4410948952276638,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.1216162602853118,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 4.129470472241398,
-              "lastPreSpike": 94,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 4.282679109460644,
-              "lastPreSpike": 87,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 2.222893981743917,
-              "lastPreSpike": 88,
-              "lastPostSpike": 94
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 94
-        },
-        {
-          "membranePotential": 0.04649043067265435,
-          "threshold": 1.069636232784932,
-          "decay": 0.8323050061782711,
-          "bias": 0.04649043067265435,
-          "connections": [
-            {
-              "weight": -0.5232262235125174,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.3624950679255148,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.26944079018601885,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8418843070102237,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.20260568516882727,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.3352978399119666,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.058887093847608,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.021791606093213206,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.3742368371477902,
-          "decay": 0.9729313938637946,
-          "bias": 0.8781754119129184,
-          "connections": [
-            {
-              "weight": 0.37967685803077267,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.1929741408394804,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.7634099814310995,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.0011081648866194,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.321386031419706,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 8.805862895214677,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.9639827576448114,
-              "lastPreSpike": 92,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 9.467954105891348,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.3732339149017254,
-          "decay": 0.882646742955221,
-          "bias": -0.09920403216976226,
-          "connections": [
-            {
-              "weight": -0.5078050623175272,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.668361476457557,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.12412091890186516,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.04610912397946865,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.29695694162641884,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.5354070790055553,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.36776699619205566,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.5189317479242774,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        }
-      ]
-    },
-    {
-      "neurons": [
-        {
-          "membranePotential": 0.5863703626882883,
-          "threshold": 1.184018998263307,
-          "decay": 0.9190480998942699,
-          "bias": 0.06912970321422057,
-          "connections": [
-            {
-              "weight": -0.6846098685165437,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.2650130589622769,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.2336603722787707,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.19994534297023214,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8446294641968581,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.2489620584030504,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.3765861652765392,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.6788926395367718,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4999965874085988,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
           "refractoryPeriod": 2,
           "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0.328591546007035,
-          "threshold": 1.3554119448193644,
-          "decay": 0.8805887418867724,
-          "bias": 0.328591546007035,
-          "connections": [
-            {
-              "weight": 4.81425480811076,
-              "lastPreSpike": 88,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.1371283182535713,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 6.1592943260021515,
-              "lastPreSpike": 88,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.1450820589003798,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 6.885825658223509,
-              "lastPreSpike": 88,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.33675220616573,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 8.504202823289315,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.7507120978499828,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0.7355576375572368,
-          "threshold": 1.9510981113532884,
-          "decay": 0.948511356809161,
-          "bias": 0.3774972288392353,
-          "connections": [
-            {
-              "weight": 12.346906553977165,
-              "lastPreSpike": 94,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.9407922328565836,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 9.028608878928262,
-              "lastPreSpike": 94,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.7819549898043354,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 8.828828380355686,
-              "lastPreSpike": 94,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.6174770506547609,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 12.762874854825334,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.39027765007841847,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0.23097216429700232,
-          "threshold": 1.4982004057985496,
-          "decay": 0.8870612032884289,
-          "bias": 0.1223978130091943,
-          "connections": [
-            {
-              "weight": 9.682317907980352,
-              "lastPreSpike": 94,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.7924082811938431,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 6.737683780083907,
-              "lastPreSpike": 94,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.4964758564136726,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 6.501200027927078,
-              "lastPreSpike": 94,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.6169053279339811,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.521012170898957,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.33191040115233944,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0.14111251261686775,
-          "threshold": 1.0623373984491495,
-          "decay": 0.9520609361934622,
-          "bias": 0.14111251261686775,
-          "connections": [
-            {
-              "weight": 5.168095118613969,
-              "lastPreSpike": 88,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.9621335267787252,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 5.884391056596078,
-              "lastPreSpike": 88,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.7516559135198453,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 6.6528527894477225,
-              "lastPreSpike": 88,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.8557838565562774,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 9.219256250342406,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.7381485361563229,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.8008610760097967,
-          "decay": 0.9675034318380207,
-          "bias": -0.4632145756248378,
+          "threshold": 1.343705022502917,
+          "adaptiveThreshold": 5.007693027128411,
+          "decay": 0.8944158644256605,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.4430398533678226,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
+              "weight": 1.4999191378679837,
+              "lastPreSpike": 99,
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.3902578414953246,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4999256430100725,
+              "lastPreSpike": 99,
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.36929679447143327,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
+              "weight": 1.4999326360859857,
+              "lastPreSpike": 99,
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.20110958521532418,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4999302654219102,
+              "lastPreSpike": 99,
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.04209804385120036,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
+              "weight": 1.4999345866517655,
+              "lastPreSpike": 99,
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.9016447656459301,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.49992912628354,
+              "lastPreSpike": 99,
+              "lastPostSpike": 99
             },
             {
-              "weight": 0.44443807733889784,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4999300276351968,
+              "lastPreSpike": 99,
+              "lastPostSpike": 99
             },
             {
-              "weight": -0.2002044166032072,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0.5752721365670261,
-          "threshold": 1.8811934142689386,
-          "decay": 0.9346274173244975,
-          "bias": 0.20485762617952935,
-          "connections": [
-            {
-              "weight": -0.8615208082611798,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.12584700282509687,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.01398450087778555,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.39220472392234884,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.21932509019862484,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.1565808324124096,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.6940188407140016,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.4320320098240714,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.0119442187927845,
-          "decay": 0.8674372425254552,
-          "bias": -0.09476343670926671,
-          "connections": [
-            {
-              "weight": -1.1878280588936312,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.29688051609682886,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.6407005678927816,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.7102752727980093,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.7345836716615288,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.4427644274400746,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.4294767012519929,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.7939190057827559,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        }
-      ]
-    },
-    {
-      "neurons": [
-        {
-          "membranePotential": 0,
-          "threshold": 1.6203913651355921,
-          "decay": 0.8211845201873722,
-          "bias": 1.41011137264968,
-          "connections": [
-            {
-              "weight": 0.46347010126183624,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.579816160510726,
-              "lastPreSpike": 45,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 6.312337291220474,
-              "lastPreSpike": 94,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 5.0895670933870205,
-              "lastPreSpike": 94,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.875678303559086,
-              "lastPreSpike": 51,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.5931701868254224,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 0.7326499896267669,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 0.9296957571471616,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 1,
-          "lastSpikeTime": 98
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.5432429426769438,
-          "decay": 0.9438649829064023,
-          "bias": -0.17175924563195694,
-          "connections": [
-            {
-              "weight": -0.21526175079643717,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.0374458131031783,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.112339319551829,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.4259231466263167,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.8422744949524362,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.6970035403356476,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.401906536673441,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.012269442517838125,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.0157411453858316,
-          "decay": 0.9853400030600606,
-          "bias": 0.4139078804800921,
-          "connections": [
-            {
-              "weight": 0.3253419298985541,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.968276820150097,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 9.618022991987807,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.514912737715959,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 9.121124385505738,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.9172706735105416,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.2688304788036058,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.2279529707711514,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4999133851302981,
+              "lastPreSpike": 99,
+              "lastPostSpike": 99
             }
           ],
           "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
+          "refractoryTimer": 3,
+          "lastSpikeTime": 99,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": true,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.5984773032879551,
-          "decay": 0.8835870875060728,
-          "bias": 0.176764017328108,
+          "threshold": 1.3414577312793616,
+          "adaptiveThreshold": 5.111460072849407,
+          "decay": 0.8781990674300271,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.4362995856222395,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.263219271458973,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 5.8820207557759145,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.671105397586435,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 5.981265006919508,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.26806784693257374,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.0983090200976502,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.4973828895529973,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.7396534766315277,
-          "decay": 0.8825069583232226,
-          "bias": 1.239102378541417,
-          "connections": [
-            {
-              "weight": -0.002438656197204958,
-              "lastPreSpike": 0,
+              "weight": 1.4994861153441414,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 3.7862647613335376,
-              "lastPreSpike": 92,
+              "weight": 1.4995285614067784,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 4.132918423880747,
-              "lastPreSpike": 92,
+              "weight": 1.4995709547019767,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 2.0583909022854194,
-              "lastPreSpike": 92,
+              "weight": 1.4995222115630433,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 2.7702877753215045,
-              "lastPreSpike": 92,
+              "weight": 1.4994770068786123,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 0.9359481008670547,
-              "lastPreSpike": 0,
+              "weight": 1.499542233018579,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 0.5762028747637807,
-              "lastPreSpike": 0,
+              "weight": 1.4995329732551257,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 1.0430448646507537,
-              "lastPreSpike": 0,
+              "weight": 1.499515019533912,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             }
           ],
           "refractoryPeriod": 4,
           "refractoryTimer": 3,
-          "lastSpikeTime": 98
+          "lastSpikeTime": 98,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.336671518314718,
-          "decay": 0.83604681914394,
-          "bias": -0.3198942647383821,
+          "threshold": 1.137735194916834,
+          "adaptiveThreshold": 5.287279896453192,
+          "decay": 0.8142928660226139,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.5303169037739663,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4994622296912437,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.5682494535884022,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4995250597678833,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.3273015788148895,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4995761918774482,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.0947364620150477,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4994293311421991,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.17782013375548636,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4995383734508865,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.7056238775026964,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4994709753597308,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.37483273527074823,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4994963610277035,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.9942692368182255,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4994895965827357,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.9660287772826333,
-          "decay": 0.8253610708174831,
-          "bias": -0.4480684356256156,
+          "threshold": 1.3090296405565383,
+          "adaptiveThreshold": 5.352179171183779,
+          "decay": 0.8448075648334569,
+          "bias": 0,
           "connections": [
             {
-              "weight": 0.259092599718284,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.7544098886968755,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.4779984552079669,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.18084926738879079,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.6676883982936173,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.40693490006106625,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.11271766585298204,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.9278166014980194,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0.5468452503654435,
-          "threshold": 1.8463860365108555,
-          "decay": 0.8800477828188086,
-          "bias": 0.290867740364313,
-          "connections": [
-            {
-              "weight": 0.6316143477502374,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 11.623750894554668,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 13.13438853307851,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 11.742269081040334,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 11.573782473615701,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.02543546637147004,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.1257123313623043,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.16509866756766506,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        }
-      ]
-    },
-    {
-      "neurons": [
-        {
-          "membranePotential": 0,
-          "threshold": 1.7380245949985904,
-          "decay": 0.9423013851770904,
-          "bias": 0.3974046856825231,
-          "connections": [
-            {
-              "weight": 9.57861020166233,
+              "weight": 1.4999346267652605,
               "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 0.906782327237234,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.1396412936373301,
-              "lastPreSpike": 64,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.2445084302254696,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 7.019996063001561,
+              "weight": 1.4999231829169637,
               "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": -0.34332530401572375,
-              "lastPreSpike": 0,
+              "weight": 1.4999334442034227,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 0.8559709394787369,
-              "lastPreSpike": 0,
+              "weight": 1.499914397399426,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             },
             {
-              "weight": 4.202905182368224,
-              "lastPreSpike": 94,
+              "weight": 1.4999212811147995,
+              "lastPreSpike": 98,
+              "lastPostSpike": 98
+            },
+            {
+              "weight": 1.4999306354451447,
+              "lastPreSpike": 98,
+              "lastPostSpike": 98
+            },
+            {
+              "weight": 1.49992194848471,
+              "lastPreSpike": 98,
+              "lastPostSpike": 98
+            },
+            {
+              "weight": 1.4999272603971392,
+              "lastPreSpike": 98,
               "lastPostSpike": 98
             }
           ],
           "refractoryPeriod": 3,
           "refractoryTimer": 2,
-          "lastSpikeTime": 98
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.0511744651471644,
-          "decay": 0.9164942001605438,
-          "bias": -0.18238925190319105,
-          "connections": [
-            {
-              "weight": 15.741133138589044,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": -0.06694418200152802,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 17.291907781930796,
-              "lastPreSpike": 96,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 13.999808039925071,
-              "lastPreSpike": 96,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 16.59056421471882,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 0.852892002325591,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": -0.18290530600710075,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 17.579252501444262,
-              "lastPreSpike": 96,
-              "lastPostSpike": 98
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 98
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.0192281988912115,
-          "decay": 0.8569694591222118,
-          "bias": -0.5554009643291091,
-          "connections": [
-            {
-              "weight": 16.77325071229981,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.4069578569396108,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 16.145517931328,
-              "lastPreSpike": 96,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 14.616007753504823,
-              "lastPreSpike": 96,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 16.433016472915057,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.2138133336471695,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.2013057345613938,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 17.60404053204654,
-              "lastPreSpike": 96,
-              "lastPostSpike": 98
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 98
-        },
-        {
-          "membranePotential": 0.47851885240641445,
-          "threshold": 1.8524843621735645,
-          "decay": 0.9744064824868552,
-          "bias": 0.47851885240641445,
-          "connections": [
-            {
-              "weight": 3.4543885388038467,
-              "lastPreSpike": 94,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 0.05715672518454784,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 3.7927754074326043,
-              "lastPreSpike": 88,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 3.311745091765831,
-              "lastPreSpike": 88,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 0.6143507080508046,
-              "lastPreSpike": 25,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 0.4657574856030612,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": -0.46968142092950455,
-              "lastPreSpike": 0,
-              "lastPostSpike": 94
-            },
-            {
-              "weight": 6.220353019105585,
-              "lastPreSpike": 94,
-              "lastPostSpike": 94
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 94
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.4350980270388702,
-          "decay": 0.8510245725782122,
-          "bias": -0.1705901935312898,
-          "connections": [
-            {
-              "weight": -0.8893095112614045,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.7326370513030003,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.37048055295841065,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.35001192943274007,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.7960353968552747,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.10755846586653417,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.5228599444538757,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.0726504991724388,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.2007149677404039,
-          "decay": 0.8347377239124117,
-          "bias": 0.29226474078077697,
-          "connections": [
-            {
-              "weight": 3.5216651283106546,
-              "lastPreSpike": 59,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.34397546999571443,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.28872079145015,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.531709032935902,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 6.409635709452484,
-              "lastPreSpike": 92,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.6233804214036258,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.4112781082463435,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.391125877924986,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.8633252775323372,
-          "decay": 0.9417186746379165,
-          "bias": 0.36490458539785886,
-          "connections": [
-            {
-              "weight": 4.912170438961484,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 0.2089068902360408,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 4.137385296941733,
-              "lastPreSpike": 92,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 1.8753624414271404,
-              "lastPreSpike": 92,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 5.857721950028915,
-              "lastPreSpike": 98,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 0.26950576812551585,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 0.8848483216801588,
-              "lastPreSpike": 0,
-              "lastPostSpike": 98
-            },
-            {
-              "weight": 4.518048391210776,
-              "lastPreSpike": 92,
-              "lastPostSpike": 98
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 3,
-          "lastSpikeTime": 98
-        },
-        {
-          "membranePotential": 0.11329074063143958,
-          "threshold": 1.3711535710990228,
-          "decay": 0.9409564679585988,
-          "bias": 0.11329074063143958,
-          "connections": [
-            {
-              "weight": -0.7714405549057153,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.6022487622575521,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.023438828534293882,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.16934435372786086,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.51419880860381,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.2329858014340691,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.9970321667019368,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.157930476325116,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "lastSpikeTime": 98,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         }
       ]
     },
@@ -2064,411 +464,459 @@
       "neurons": [
         {
           "membranePotential": 0,
-          "threshold": 1.3154365317223076,
-          "decay": 0.9678682244426742,
-          "bias": -1.0124655669814153,
+          "threshold": 1.1681421351490624,
+          "adaptiveThreshold": 1.619857259970362,
+          "decay": 0.7307827415041243,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.22940135313595406,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.235565929939255,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.7180703459993882,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.490929993841813,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.15500487803960236,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.4472342877103965,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.6639377276151051,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
+              "weight": 1.4869688184679162,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.026204352278522913,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4844722269953934,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.10447594873180852,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.440651617463304,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.6915623624243177,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.373472927162386,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.8173486945867507,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.587594882565888,
-          "decay": 0.893265005256171,
-          "bias": -0.4603450383377347,
-          "connections": [
-            {
-              "weight": 0.7116302606764155,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.5518888250972037,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.9077534304829183,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.7325276328123429,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.659943938054542,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8413507912632884,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.6332964506160486,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.8982275320949547,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.8659324534824893,
-          "decay": 0.9470300403752198,
-          "bias": -0.7565648431684826,
-          "connections": [
-            {
-              "weight": 0.36637825279189196,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.7700303364999745,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.5039473782644973,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.166617020430003,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.26682014542800514,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.0224900374213641,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.107439455853167,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.24952118602972306,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0.655666227628063,
-          "threshold": 1.2663326316810943,
-          "decay": 0.9265725774962623,
-          "bias": 0.655666227628063,
-          "connections": [
-            {
-              "weight": 3.7479948841188673,
-              "lastPreSpike": 65,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 8.462756896935618,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 9.061998296728515,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 6.676109215096484,
-              "lastPreSpike": 88,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.5413454580163686,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 10.47462910710261,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 5.474661651532071,
-              "lastPreSpike": 92,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.5015641060030014,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4925262561091153,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
           "refractoryPeriod": 2,
           "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0.4945926346139719,
-          "threshold": 1.7804361437365734,
-          "decay": 0.9949766130891182,
-          "bias": 0.4945926346139719,
-          "connections": [
-            {
-              "weight": -0.6339211264875085,
-              "lastPreSpike": 98,
-              "lastPostSpike": 18
-            },
-            {
-              "weight": -1.1416409525038327,
-              "lastPreSpike": 98,
-              "lastPostSpike": 18
-            },
-            {
-              "weight": -0.7624143793755109,
-              "lastPreSpike": 98,
-              "lastPostSpike": 18
-            },
-            {
-              "weight": -0.28698703946706905,
-              "lastPreSpike": 94,
-              "lastPostSpike": 18
-            },
-            {
-              "weight": -0.4107576619872561,
-              "lastPreSpike": 0,
-              "lastPostSpike": 18
-            },
-            {
-              "weight": -0.18307294946845884,
-              "lastPreSpike": 96,
-              "lastPostSpike": 18
-            },
-            {
-              "weight": -0.03201341991437531,
-              "lastPreSpike": 98,
-              "lastPostSpike": 18
-            },
-            {
-              "weight": 1.0144485646613142,
-              "lastPreSpike": 0,
-              "lastPostSpike": 18
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 18
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.9153803868912596,
-          "decay": 0.8765644671629063,
-          "bias": -0.6699981979842181,
+          "threshold": 1.4371176496857199,
+          "adaptiveThreshold": 1.2287365641792052,
+          "decay": 0.7550679895067852,
+          "bias": 0,
           "connections": [
             {
-              "weight": -1.0786176983928113,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.2927841031337113,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.07661149120062724,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.4261689212762074,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.0223080427188511,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.452141024754366,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.1198749910222061,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
+              "weight": 1.4469324951132494,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.33779482508173286,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.425847025753326,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.7853466805362508,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4393744022399322,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.14187812810379513,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.433428242449231,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.9357434054180136,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.411351532365649,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
-          "refractoryPeriod": 3,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
-          "membranePotential": 0.38558640482876533,
-          "threshold": 1.802982152062461,
-          "decay": 0.961962885616083,
-          "bias": 0.38558640482876533,
+          "membranePotential": 2.9834324170952105,
+          "threshold": 1.3702162069704933,
+          "adaptiveThreshold": 1.5973269073944032,
+          "decay": 0.7680407097248538,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.036145571297771295,
-              "lastPreSpike": 98,
-              "lastPostSpike": 11
+              "weight": 1.4691143973914567,
+              "lastPreSpike": 99,
+              "lastPostSpike": 95
             },
             {
-              "weight": -1.1949274895049127,
-              "lastPreSpike": 98,
-              "lastPostSpike": 11
+              "weight": 1.4609569421725568,
+              "lastPreSpike": 99,
+              "lastPostSpike": 95
             },
             {
-              "weight": -0.9007306179976847,
-              "lastPreSpike": 98,
-              "lastPostSpike": 11
+              "weight": 1.4189666218061654,
+              "lastPreSpike": 99,
+              "lastPostSpike": 95
             },
             {
-              "weight": -0.33045090261458726,
-              "lastPreSpike": 94,
-              "lastPostSpike": 11
+              "weight": 1.4644418177256553,
+              "lastPreSpike": 99,
+              "lastPostSpike": 95
             },
             {
-              "weight": 0.5658061286093186,
-              "lastPreSpike": 0,
-              "lastPostSpike": 11
+              "weight": 1.4951495770528314,
+              "lastPreSpike": 99,
+              "lastPostSpike": 95
             },
             {
-              "weight": -0.7846806066133845,
-              "lastPreSpike": 96,
-              "lastPostSpike": 11
+              "weight": 1.346512114928174,
+              "lastPreSpike": 99,
+              "lastPostSpike": 95
             },
             {
-              "weight": 0.13862977379426838,
-              "lastPreSpike": 98,
-              "lastPostSpike": 11
+              "weight": 1.282105947802968,
+              "lastPreSpike": 99,
+              "lastPostSpike": 95
             },
             {
-              "weight": 0.4136284930689722,
-              "lastPreSpike": 0,
-              "lastPostSpike": 11
+              "weight": 1.487549955568581,
+              "lastPreSpike": 99,
+              "lastPostSpike": 95
             }
           ],
           "refractoryPeriod": 3,
           "refractoryTimer": 0,
-          "lastSpikeTime": 11
+          "lastSpikeTime": 95,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.0246938368968979,
-          "decay": 0.8923449548444393,
-          "bias": -0.8140108228795409,
+          "threshold": 1.3579191337448868,
+          "adaptiveThreshold": 1.8606431436070567,
+          "decay": 0.8607756301153844,
+          "bias": 0,
           "connections": [
             {
-              "weight": 0.5321550018566208,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.2884914728430534,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.4883917638044971,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.4539224407759075,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.5181442427646248,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.4683900065269815,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.0381487418366575,
-              "lastPreSpike": 94,
-              "lastPostSpike": 0
+              "weight": 1.4471873621371927,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.8831305551304565,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4448732737816572,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.1218455936523972,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4453673259610342,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.24143482275720116,
-              "lastPreSpike": 98,
-              "lastPostSpike": 0
+              "weight": 1.447807450471378,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.12637316415106792,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.441240769511481,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
-          "refractoryPeriod": 3,
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.00090264576342,
+          "adaptiveThreshold": 1.7688082560278902,
+          "decay": 0.739813545206098,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.2561450282947815,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4190800976389506,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.458997742895326,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4287945912671054,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4448387510604814,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.447733263684981,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4281299861324515,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4484819565595695,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.4395061862648828,
+          "adaptiveThreshold": 1.8112432592151233,
+          "decay": 0.7207315865453485,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.3114088679720732,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4850747899583907,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.464151902982679,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.483527851543634,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4936382888805209,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.412716914646617,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.3666261442020002,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4971407655707916,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
           "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.281044069166326,
+          "adaptiveThreshold": 1.619857262120855,
+          "decay": 0.8457976405395123,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.233833982650809,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4843629081850682,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4563411873410947,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4886130348773992,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4886440658957485,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4088016650499615,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.363136828941489,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4952336743088257,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.4181477536244707,
+          "adaptiveThreshold": 1.8112432592241143,
+          "decay": 0.711479269961198,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.2817354725812387,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4801871386842682,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4404337917230043,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4811884435308347,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4931220709066455,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.406369290750541,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.3740223152605806,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4957065564077179,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         }
       ]
     },
@@ -2476,823 +924,2759 @@
       "neurons": [
         {
           "membranePotential": 0,
-          "threshold": 1.144997595605691,
-          "decay": 0.8745392431712169,
-          "bias": -0.724649236192223,
+          "threshold": 1.1765686215014939,
+          "adaptiveThreshold": 1.2258766122500873,
+          "decay": 0.8651961557533534,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.4923820270757756,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.482514376959557,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.5674135398311286,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4830260106296413,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.03914416039934443,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4565728558723654,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -1.1147769787742825,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.488738228274946,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.9611413259926529,
-              "lastPreSpike": 18,
-              "lastPostSpike": 0
+              "weight": 1.4911426666809249,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.6460540753184334,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4855419361248858,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.6572015392263384,
-              "lastPreSpike": 11,
-              "lastPostSpike": 0
+              "weight": 1.4847435292834366,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.8241026176098059,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.3840553084209481,
-          "decay": 0.9845829103029881,
-          "bias": -0.23879406371939532,
-          "connections": [
-            {
-              "weight": -0.41267149956040416,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.21836582507164648,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8204624492846155,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.1763841243329314,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.0037480223687028358,
-              "lastPreSpike": 18,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.14339437177496328,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.7594400034534732,
-              "lastPreSpike": 11,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.23203798150851163,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.209991167893341,
-          "decay": 0.9065887146589234,
-          "bias": -0.08196565354416843,
-          "connections": [
-            {
-              "weight": -0.8947644078593793,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.41013301853820927,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.5140166854948278,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.613611032540132,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.6908320790426078,
-              "lastPreSpike": 18,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.6407910030310768,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.9099122123687993,
-              "lastPreSpike": 11,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.6720830718781918,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4857916018632062,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
           "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
-          "membranePotential": 0.7533043848873187,
-          "threshold": 1.6182020086116053,
-          "decay": 0.8476106448312571,
-          "bias": 0.407718145051128,
+          "membranePotential": 0.028051789128835828,
+          "threshold": 1.4098338871758849,
+          "adaptiveThreshold": 0.8435771318044795,
+          "decay": 0.7769527281286253,
+          "bias": 0,
           "connections": [
             {
-              "weight": 0.18435188188586432,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4985294845122399,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": -0.2676899478682039,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.3911151937471975,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 1.2052234610697297,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4795824594138265,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 10.199508257640215,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
+              "weight": 1.423590068068029,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.8538294537891258,
-              "lastPreSpike": 18,
-              "lastPostSpike": 96
+              "weight": 1.4340381001991245,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.9963523083304533,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.498926048409734,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.0006172846128209009,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4990171162155246,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.08472985282675155,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4986290942432987,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             }
           ],
-          "refractoryPeriod": 1,
+          "refractoryPeriod": 3,
           "refractoryTimer": 0,
-          "lastSpikeTime": 96
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.984413382177136,
-          "decay": 0.9092329168774336,
-          "bias": -0.3471236966919784,
+          "threshold": 1.473426167727859,
+          "adaptiveThreshold": 1.3030955002118925,
+          "decay": 0.8136366200707235,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.7192225751157524,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4848385774878314,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.9012619288345638,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4873932879997422,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.9327448785500111,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4553418996562488,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.08273699107314544,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4852584144905558,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.9169492186458345,
-              "lastPreSpike": 18,
-              "lastPostSpike": 0
+              "weight": 1.4833240989557277,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.9185090640036732,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4874415641280907,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.2999678999153028,
-              "lastPreSpike": 11,
-              "lastPostSpike": 0
+              "weight": 1.4865900242432852,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.7030167250718748,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4857951734371586,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.2071059568300218,
+          "adaptiveThreshold": 1.225878991533895,
+          "decay": 0.7805976344733051,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.483940284742442,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.484695783159077,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4514666578652498,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.490017173279428,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4912709858381306,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.485877150180443,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4854126570534392,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4804169737531032,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.492142107573395,
+          "adaptiveThreshold": 1.6144669979968371,
+          "decay": 0.8502782002243187,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.499899361728206,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4531210260724552,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.481330348898225,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.445431479043139,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.458473535622635,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998679261055152,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998837131562848,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4997599370384047,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
           "refractoryPeriod": 2,
           "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.796961657886341,
-          "decay": 0.8999508770447535,
-          "bias": -0.3134822787460456,
+          "threshold": 1.4025771403887677,
+          "adaptiveThreshold": 1.384041567414939,
+          "decay": 0.7003475022185711,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.4211522213939445,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4831790338298967,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.7155005733409621,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4856634875177124,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.21654182551796997,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.446298634652859,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.6230334361585065,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4838746843660036,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.030833473671465356,
-              "lastPreSpike": 18,
-              "lastPostSpike": 0
+              "weight": 1.4863921313617594,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.7149423871936187,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4881467759720064,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.7702335704052587,
-              "lastPreSpike": 11,
-              "lastPostSpike": 0
+              "weight": 1.487613473495711,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.19636038404752143,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4844799875634895,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0.4217796470010371,
-          "threshold": 1.8819389577244494,
-          "decay": 0.9204317488209514,
-          "bias": 0.4217796470010371,
-          "connections": [
-            {
-              "weight": -0.3867678252403843,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.21549226742442978,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.10735013267674398,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 9.465476832731985,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.7960412881472403,
-              "lastPreSpike": 11,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.36697583140356865,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.6857118940535198,
-              "lastPreSpike": 11,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.3523299758062212,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.6374347459829792,
-          "decay": 0.996115695666201,
-          "bias": -0.8051006923377695,
+          "threshold": 1.0208210834241382,
+          "adaptiveThreshold": 1.2258252214062542,
+          "decay": 0.8527865373254161,
+          "bias": 0,
           "connections": [
             {
-              "weight": 0.8793409125653089,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4828251016254892,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.4285030887276007,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4823614133537963,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.7182822027661562,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.455461029329631,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.6330773879584416,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4880336352165717,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.35067102622392177,
-              "lastPreSpike": 18,
-              "lastPostSpike": 0
+              "weight": 1.4903831016745086,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.6716442925627016,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.485271101027403,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.6398732155813132,
-              "lastPreSpike": 11,
-              "lastPostSpike": 0
+              "weight": 1.488047178873043,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.07510691563146521,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4854628602014566,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
-          "refractoryPeriod": 1,
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0.019341634208241885,
+          "threshold": 1.486864755823453,
+          "adaptiveThreshold": 0.8435771351432628,
+          "decay": 0.8105420376710225,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4987909267850459,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.3903477488979887,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4816594422592952,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4250800677826194,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4280406268635097,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4991642244729364,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4989921169695946,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.49891814734896,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
           "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         }
       ]
     },
     {
       "neurons": [
         {
-          "membranePotential": 0.4161947012843954,
-          "threshold": 1.373974867820024,
-          "decay": 0.8055495324722802,
-          "bias": 0.4161947012843954,
+          "membranePotential": 0.006978380058558734,
+          "threshold": 1.3951062977395665,
+          "adaptiveThreshold": 0.843575572008418,
+          "decay": 0.7899892927725496,
+          "bias": 0,
           "connections": [
             {
-              "weight": 0.9148100539707749,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4703138605053145,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.10943746490463341,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4995597046825486,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.24385491868006165,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4692055257610308,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 10.204845761670216,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
+              "weight": 1.4726581751743615,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.7912178589413357,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4992484192615703,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.017029122945437736,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.468984506320525,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 9.177327688642118,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
+              "weight": 1.4737255415586943,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             },
             {
-              "weight": 0.7658496929856342,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.1696139541570711,
-          "decay": 0.8683400236472887,
-          "bias": -0.2346661279553417,
-          "connections": [
-            {
-              "weight": 0.0014054215448975338,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.18391989795814867,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.30272901941242836,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.3155053879060038,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.5203209432733213,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.6127118873719946,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.20996001856301746,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.8235729530582541,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4996543737981836,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
             }
           ],
           "refractoryPeriod": 3,
           "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
           "membranePotential": 0,
-          "threshold": 1.713290395011804,
-          "decay": 0.9136572619742999,
-          "bias": -0.6086943103093866,
+          "threshold": 1.1757986722898908,
+          "adaptiveThreshold": 1.2258761567213479,
+          "decay": 0.7650228934286288,
+          "bias": 0,
           "connections": [
             {
-              "weight": -0.6552126345915285,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.498752058511371,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.9442634719088132,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4719016672757146,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.5432017261814988,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4970475283725933,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.5305225987052359,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4984638741751508,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.45637647488158883,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4898171119655788,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.0771273309884517,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.496817131077831,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.9977096277494147,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
+              "weight": 1.4986637269234868,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.9541185708103066,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.4992777452468948,
-          "decay": 0.9301829157079007,
-          "bias": -0.18603964215944038,
-          "connections": [
-            {
-              "weight": -0.19016352854437424,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.34509666887996115,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.6462927734401357,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 8.898532773241902,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.06820005683852837,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.3032482026290568,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 8.456007919994937,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.6910784290179578,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.2404999983272624,
-          "decay": 0.9359163283250527,
-          "bias": -0.1322442203713226,
-          "connections": [
-            {
-              "weight": -0.6030501493504741,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.40731691428538286,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.5195499216595234,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.2334198380822439,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.5294411999015172,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.34933005478842893,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.16852561546251785,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.5732936656746261,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            }
-          ],
-          "refractoryPeriod": 1,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
-        },
-        {
-          "membranePotential": 0,
-          "threshold": 1.8115597638614607,
-          "decay": 0.8356582781109851,
-          "bias": -0.012788825223639944,
-          "connections": [
-            {
-              "weight": 0.815387282958739,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.0203201094931023,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.8565470564753261,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.127307368023405,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": -0.18939414515918906,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 1.128254112160102,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 7.619077067664528,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
-            },
-            {
-              "weight": 0.21763941706436962,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
-            }
-          ],
-          "refractoryPeriod": 2,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 96
-        },
-        {
-          "membranePotential": 0.420091613893003,
-          "threshold": 1.21291673149947,
-          "decay": 0.8506536945137224,
-          "bias": 0.16318892895986886,
-          "connections": [
-            {
-              "weight": 0.9739078489709196,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.42023133692084236,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.46081442380680193,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -1.2749524119874651,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.7776870675056176,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.23457396246746764,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": 0.3938087604941346,
-              "lastPreSpike": 96,
-              "lastPostSpike": 0
-            },
-            {
-              "weight": -0.6759789614254483,
-              "lastPreSpike": 0,
-              "lastPostSpike": 0
+              "weight": 1.4703659405988168,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
           "refractoryPeriod": 4,
-          "refractoryTimer": 0,
-          "lastSpikeTime": 0
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         },
         {
-          "membranePotential": 0.5889486420935025,
-          "threshold": 1.5110909383229687,
-          "decay": 0.9143515088033142,
-          "bias": 0.30764916442208773,
+          "membranePotential": 0,
+          "threshold": 1.2675187272328072,
+          "adaptiveThreshold": 1.093632299337819,
+          "decay": 0.8937024551308836,
+          "bias": 0,
           "connections": [
             {
-              "weight": 0.9556978678324022,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4924757853261186,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.26045953383888426,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4994363323402078,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.28786349222743624,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4898246044410062,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 9.68478870415216,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
+              "weight": 1.4920950730740465,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.24794155914486787,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4996468606988307,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 0.4494166303787012,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.4894034002507492,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": 10.471799025769098,
-              "lastPreSpike": 96,
-              "lastPostSpike": 96
+              "weight": 1.4931749402142669,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             },
             {
-              "weight": -0.2525098480626379,
-              "lastPreSpike": 0,
-              "lastPostSpike": 96
+              "weight": 1.499476529482378,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
             }
           ],
-          "refractoryPeriod": 1,
+          "refractoryPeriod": 2,
           "refractoryTimer": 0,
-          "lastSpikeTime": 96
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0.006920741757926311,
+          "threshold": 1.4406258771102065,
+          "adaptiveThreshold": 0.843575572008418,
+          "decay": 0.8067567337457431,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4759843793294374,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995441668231018,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.471725853874819,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4737320551624773,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4993145511983972,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.469653114053473,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4736386677546298,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996218196077193,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.4856091442430903,
+          "adaptiveThreshold": 1.2258767865273232,
+          "decay": 0.8207082808871515,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4985420094897635,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.471381153925992,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4978567723037575,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4984892964607222,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4875958082089786,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4978493766113,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4984870258741656,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.472129885332552,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": -0.014233757924530062,
+          "threshold": 1.4696343196719317,
+          "adaptiveThreshold": 0.843575572008418,
+          "decay": 0.7929211944237311,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4720645247990385,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995816436669223,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4681715879253205,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4661016062127397,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4992749056297545,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.476792878865028,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4672540493852222,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996435973484485,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.092033699050573,
+          "adaptiveThreshold": 1.225876155723408,
+          "decay": 0.8671410904843913,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4986935146345006,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4748779381206203,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4974356593853149,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4986944541933742,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4870850504549062,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4975198013954512,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4983319206128871,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.474071244740693,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": -0.003600608819573279,
+          "threshold": 1.272432724475184,
+          "adaptiveThreshold": 0.8435771351432608,
+          "decay": 0.8133117792226066,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4710160392993514,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995762067848837,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.471958820665514,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4695947685569826,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4992410455326433,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.472316470539578,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.470969600209867,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996412376741783,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        }
+      ]
+    },
+    {
+      "neurons": [
+        {
+          "membranePotential": -0.005817838826445402,
+          "threshold": 1.2548393718147193,
+          "adaptiveThreshold": 0.843575572008418,
+          "decay": 0.8283666018611994,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4997184626864717,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.474456592931634,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995137986661387,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997125564596303,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4778335934596776,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997160645947778,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4741798015289336,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499699020011199,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.4502496745014075,
+          "adaptiveThreshold": 1.2258763309906735,
+          "decay": 0.8882899015469028,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4782083806696447,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4988732387011117,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4934221959360994,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4744363198911543,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4990984990368514,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4802856529884076,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4988839429816887,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4730394116930923,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": -0.0254238781038602,
+          "threshold": 1.317732179925813,
+          "adaptiveThreshold": 0.843575572008418,
+          "decay": 0.8540355248266577,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.499674272683058,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.475063300849224,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995580976409109,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499644653811015,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.479072516595511,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997207779622854,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4794098108874045,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996733150848978,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.127651107973981,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.7737188884171984,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.499527259844449,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.492021599588431,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998398652250349,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995447490839209,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4920636681817805,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499524134393539,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4938487726150513,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499461292152065,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.3057670304356594,
+          "adaptiveThreshold": 1.2258761567213468,
+          "decay": 0.8655487582712607,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.477610310579809,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4990331385728894,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4928947906769177,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4785803417076102,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4987612811864734,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4805859750955626,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4989737968067793,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4784193906192369,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.287318379916896,
+          "adaptiveThreshold": 1.2258761567213468,
+          "decay": 0.8629845462190271,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4780917225103243,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499092454703033,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4933517456630871,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4796858755655524,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4990066434940734,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4790003041322406,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4989253140194885,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4742808891189387,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.1721160568435975,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.7040676304337514,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.499462985106415,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4925945805197107,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998161203648697,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499532198241702,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4936749871607844,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995341555186703,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.492785276826929,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499544061466969,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0.014116407272074527,
+          "threshold": 1.1796996300727967,
+          "adaptiveThreshold": 0.843575572008418,
+          "decay": 0.8370128051736324,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4997176848384968,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.478021058424643,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4994817841669985,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997389388523685,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4725634464870752,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997252001263068,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4803428598131723,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996968883980064,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        }
+      ]
+    },
+    {
+      "neurons": [
+        {
+          "membranePotential": 0,
+          "threshold": 1.2802865678646707,
+          "adaptiveThreshold": 1.2258761567213468,
+          "decay": 0.8178384867368922,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4812832486729903,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.498948489815101,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4741148858585156,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4934332695693957,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4991934237881799,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4989747215795077,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4930476328646543,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4807198592811284,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0.029706537265405397,
+          "threshold": 1.147886791267498,
+          "adaptiveThreshold": 0.8435755720084179,
+          "decay": 0.7507232981973854,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4996758950596012,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4801272999630286,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499652120432014,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995917056793062,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4784757705367644,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.479464562186141,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995414458782967,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997167607806745,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.0628982710866244,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.7659131094965844,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.499488459112113,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4919767496075773,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995004744333251,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998624276071904,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4929923800470273,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4927649860322671,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998447904890253,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995371042305943,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.426542795748773,
+          "adaptiveThreshold": 1.2258763309906735,
+          "decay": 0.7277690114808819,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4763516086073032,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4990340494163812,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.475929743805193,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4922581054372415,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4989233507284823,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4990412916592892,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4937568595613537,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4736040958607952,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.3272792192978624,
+          "adaptiveThreshold": 1.2258761567213468,
+          "decay": 0.7754479269089402,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.479937088863371,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4990799923173044,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.474570814516883,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4935993211229293,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4992059339292927,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4989267336966232,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4935905205009343,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4768855170787245,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": -0.016067892004343692,
+          "threshold": 1.0820022180307718,
+          "adaptiveThreshold": 0.8435755720084179,
+          "decay": 0.7755380109598246,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.499697999681672,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.478334858141753,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996637823860997,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995410397394155,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4790506456515249,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4742241966672247,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995620562539733,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996842357937503,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.1326385899977411,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.8535113960322572,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.499581674131204,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4937632405570473,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995277328960919,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998684998211482,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4939130193609222,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4929849201450878,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998749828502036,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499584426452218,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0.006358629195633108,
+          "threshold": 1.3812531091985778,
+          "adaptiveThreshold": 0.8435755720084179,
+          "decay": 0.843402365404469,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.499738621804484,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4753687639400117,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997242914197666,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499599777583471,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4784192947783368,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4778700774221425,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995528362199122,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997264653644655,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        }
+      ]
+    },
+    {
+      "neurons": [
+        {
+          "membranePotential": 0.022484261071524448,
+          "threshold": 1.0561560882012868,
+          "adaptiveThreshold": 0.8435755720084179,
+          "decay": 0.8045969086789768,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4748827561253282,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499703323633512,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995026583868099,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.477944429930589,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4791155567346765,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997478959689472,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995765807556363,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997251683258106,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.044656250728613,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.7103135220210979,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4938874959430823,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995000773045364,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998450254027784,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4929091780656134,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4942208533009724,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995107072068632,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998586119663577,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995999791127235,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.173813941564303,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.8259145701149281,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4921925296923528,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995400844377056,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998694410985791,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4942399690179236,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4931910100352275,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995174847622925,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998713993216777,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995099726090533,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.3687019294136926,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.8873763495631659,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.493844461292677,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995018964261022,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499870413822065,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.493490269586882,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.492883801752753,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995115866986721,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499869540423838,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4996193800492317,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.113541919690849,
+          "adaptiveThreshold": 1.2258761567213468,
+          "decay": 0.8054665822641538,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4989461444410666,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4771343762466485,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.493483637611782,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4989263734978704,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4990824664564735,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4791501340503193,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4939816642157575,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4788977952609,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 4,
+          "refractoryTimer": 2,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.1899581271951027,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.8427129392821323,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4927821857974364,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4994800149245624,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998720085964148,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4936999276777758,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.493900366504417,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995957353264557,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499864001098578,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499515024191171,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0.03117982976793481,
+          "threshold": 1.1189343402874221,
+          "adaptiveThreshold": 0.8435755720084179,
+          "decay": 0.8540560028360173,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4800126286629698,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996906802983727,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995301629098376,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4805316297350737,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4738495011542923,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997208820499182,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499566914140352,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996632641168244,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0.008337875516926684,
+          "threshold": 1.2382907390130837,
+          "adaptiveThreshold": 0.8435755720084179,
+          "decay": 0.807896690111177,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.476434570415709,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996482148268726,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995075451326392,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4805278563103899,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.474526964369999,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499709518450464,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996082659844248,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499716565785219,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        }
+      ]
+    },
+    {
+      "neurons": [
+        {
+          "membranePotential": 0,
+          "threshold": 1.0538986507772239,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.7123513931382337,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4994639120418116,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998575362868665,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499869238063956,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998798673686222,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4938548604649977,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.49986260631713,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4994796789791176,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995659211929049,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": -0.002635953821820271,
+          "threshold": 1.3558143983801203,
+          "adaptiveThreshold": 0.8435755720084179,
+          "decay": 0.7793899122236768,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4996779502798414,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995331581196458,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995960868100104,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4994831108438202,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4761134147864285,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996059732108538,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997182888466618,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4997286583110137,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.0254664654215853,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.8040680474351192,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4994973399382836,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998514414529172,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998472666991354,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998824207213137,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4932440485934952,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499863083608988,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4996057874279551,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499553229967638,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.3968454875503549,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.839071581149649,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4994805923320422,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998625972277504,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998534542498971,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998830672595886,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4923932229612686,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998717286846945,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995128117559031,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499490113775171,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": -0.004262884210092783,
+          "threshold": 1.166481335911899,
+          "adaptiveThreshold": 0.8435755720084179,
+          "decay": 0.7176497859369995,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4996809001594849,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4994744899825343,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4995760949354793,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4996109449116266,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.475406314545465,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.4994807141962931,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499698030588393,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            },
+            {
+              "weight": 1.499695936948293,
+              "lastPreSpike": 99,
+              "lastPostSpike": 94
+            }
+          ],
+          "refractoryPeriod": 3,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 94,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.3817320213823212,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.712482268419481,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4995681971161692,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499865699662789,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499843509774498,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998511454100243,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4920070599875692,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998480692171938,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499540255746476,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4994858310292734,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.2349511076797974,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.8811500239638248,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4995282788943551,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998461479979626,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998807530139384,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499850406459066,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4940765800893026,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998790228214753,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995690136256823,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995189233021624,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
+        },
+        {
+          "membranePotential": 0,
+          "threshold": 1.1312211232215592,
+          "adaptiveThreshold": 0.7220122905075249,
+          "decay": 0.7918123359235741,
+          "bias": 0,
+          "connections": [
+            {
+              "weight": 1.4995749184498928,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998688124084822,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998645645760966,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998664355841,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4926225823425956,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4998637962198529,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.499489687939235,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            },
+            {
+              "weight": 1.4995751458014743,
+              "lastPreSpike": 97,
+              "lastPostSpike": 97
+            }
+          ],
+          "refractoryPeriod": 2,
+          "refractoryTimer": 0,
+          "lastSpikeTime": 97,
+          "minWeight": -1.5,
+          "maxWeight": 1.5,
+          "fired": false,
+          "minBias": 0,
+          "maxBias": 0
         }
       ]
     }
